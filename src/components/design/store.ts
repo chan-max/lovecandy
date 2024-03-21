@@ -171,7 +171,7 @@ export const operatingTextStickerOptions = reactive({
     
     // 背景颜色
     backgroundColor: 'rgba(0,0,0,0)',
-    backgroundGradientColor:'#6900ff',
+    backgroundGradientColor:'#f53b4a',
     backgroundBorderRadius: '5px',
     backgroundPadding: '',
 })

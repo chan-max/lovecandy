@@ -17,7 +17,7 @@
       <div class="app-footer">
         <ion-tab-bar slot="bottom">
           <ion-tab-button tab="tab1" href="/home/index">
-            <ion-icon class="icon" :src="iconHomeFilled"></ion-icon>
+            <ion-icon class="icon" :src="iconCandy"></ion-icon>
             <ion-label class="label">找点糖吃</ion-label>
           </ion-tab-button>
           <ion-tab-button tab="tab2" href="/home/market">
@@ -60,6 +60,7 @@ import {
   IonRouterOutlet,
 } from "@ionic/vue";
 import iconHomeFilled from "@/icon/mobile/footer/home-filled.svg?url";
+import iconCandy from "@/icon/mobile/footer/candy.svg?url";
 import iconMarketFilled from "@/icon/mobile/footer/market-filled.svg?url";
 import iconWorkspaceFilled from "@/icon/mobile/footer/workspace-filled.svg?url";
 import iconTalkFilled from "@/icon/mobile/footer/talk-filled.svg?url";

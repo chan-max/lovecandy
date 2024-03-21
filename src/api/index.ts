@@ -279,3 +279,12 @@ export const getCommunicationMessage  = (params) => new Promise(async (resolve, 
   const res = await apiInstance.post(Url.GET_COMMUNICATION_MESSAGE, params)
   resolve(res.data.data)
 })
+
+
+// 获取聊天信息
+export const getCandies = (params) => new Promise(async (resolve, reject) => {
+  const res = await apiInstance.post('/getCandies', params)
+  resolve(res.data.data)
+})
+
+

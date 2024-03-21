@@ -15,7 +15,7 @@
         <ion-list-header style="padding-left:calc(var(--ion-safe-area-left, 0px) + 8px);">
           <ion-label>
             <div style="padding:20px 0">
-              登录到衣设
+              登录到爱吃糖
             </div>
           </ion-label>
         </ion-list-header>
@@ -172,7 +172,7 @@ a{
 .signup{
   text-align: center;
   width: 100%;
-  color: #6900ff;
+  color: #f53b4a;
 }
 
 

@@ -138,7 +138,7 @@ const loginStatusStore = useLoginStatusStore();
 
 .header-bar-menu-item-active {
     opacity: 1;
-    border-bottom: 2px solid #6900ff;
+    border-bottom: 2px solid #f53b4a;
 }
 
 .tools {

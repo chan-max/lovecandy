@@ -16,7 +16,7 @@
     @reachEnd="reachEnd" @activeIndexChange="activeIndexChange" @touchStart="touchStart" @touchEnd="touchEnd"
     @transitionStart="transitionStart" @transitionEnd="transitionEnd" @sliderMove="sliderMove">
     <swiper-slide style="width: 100%; height: 100%" v-for="(item, index) in list" :key="index" :virtualIndex="index">
-      <swiper-item :available-model-info="item" :index="index"></swiper-item>
+      <swiper-item :data="item" :index="index"></swiper-item>
     </swiper-slide>
   </swiper>
 </template>
@@ -31,9 +31,20 @@ import "@ionic/vue/css/ionic-swiper.css";
 import swiperItem from "./item.vue";
 import { activeIndex, activeIndexChange, gltfViewerRef } from "./index.ts";
 
-const { list, getList, loading, firstLoading } = usePaging(getIndexAvailableModel, {
+
+function getCandies() {
+  return new Promise((resolve) => {
+    resolve({
+      pages: 100,
+      pageSize: 3,
+      list: [{}, {}, {}]
+    })
+  })
+}
+
+const { list, getList, loading, firstLoading } = usePaging(getCandies, {
   // 获取首页模型信可能会涉及很多查询，所以严格控制其数量
-  pageSize:3
+  pageSize: 3
 });
 
 // 滑动到最新

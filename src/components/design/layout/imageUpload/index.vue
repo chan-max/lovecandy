@@ -20,7 +20,7 @@
     <a-qrcode
       style="width: 50px; height: 50px;"
       value="http://www.antdv.com"
-      color="#6900ff"
+      color="#f53b4a"
       bg-color="#fff"
     />
     <div class="designiy-image-upload-form">

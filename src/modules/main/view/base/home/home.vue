@@ -104,8 +104,8 @@ onMounted(async () => {
 .button-try {
     background: transparent;
     border-radius: 8px;
-    border: 2px solid #6900ff;
-    color: #6900ff;
+    border: 2px solid #f53b4a;
+    color: #f53b4a;
     display: inline-flex;
     justify-content: center;
     align-items: center;
