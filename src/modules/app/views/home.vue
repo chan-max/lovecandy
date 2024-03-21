@@ -18,7 +18,7 @@
         <ion-tab-bar slot="bottom">
           <ion-tab-button tab="tab1" href="/home/index">
             <ion-icon class="icon" :src="iconHomeFilled"></ion-icon>
-            <ion-label class="label">首页</ion-label>
+            <ion-label class="label">找点糖吃</ion-label>
           </ion-tab-button>
           <ion-tab-button tab="tab2" href="/home/market">
             <ion-icon class="icon" :src="iconMarketFilled"></ion-icon>
@@ -26,15 +26,14 @@
           </ion-tab-button>
           <ion-tab-button tab="tab3" href="/home/workspace">
             <ion-icon class="icon" :src="iconWorkspaceFilled"></ion-icon>
-            <ion-label class="label">工作台</ion-label>
+            <ion-label class="label">甜品分类</ion-label>
           </ion-tab-button>
           <ion-tab-button tab="tab4" href="/home/talk">
             <ion-badge color="danger">44</ion-badge>
             <ion-icon class="icon" :src="iconTalkFilled"></ion-icon>
-            <ion-label class="label">消息</ion-label>
+            <ion-label class="label">我的消息</ion-label>
           </ion-tab-button>
           <ion-tab-button tab="tab5" href="/home/user">
-            
             <avatar
               v-if="loginStore.isLogin && loginStore.userInfo.preview_avatar"
               class="avatar"
@@ -43,7 +42,7 @@
             >
             </avatar>
             <ion-icon v-else class="icon" :src="iconUserFilled"></ion-icon>
-            <ion-label class="label">我的衣设</ion-label>
+            <ion-label class="label">我的糖果屋</ion-label>
           </ion-tab-button>
         </ion-tab-bar>
       </div>
