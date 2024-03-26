@@ -11,7 +11,7 @@
 <template>
   <div class="designiy-header">
     <div class="designiy-header-logo">
-      <span style="font-size: 16px;font-weight: bold;font-style: italic;">衣设1s</span>
+      <span style="font-size: 16px;font-weight: bold;font-style: italic;">爱吃糖</span>
     </div>
     <header-menu-dropdown />
 

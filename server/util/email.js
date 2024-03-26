@@ -17,7 +17,7 @@ export function sendValidateCodeEmail(options) {
   const mailOptions = {
     from: 'yishe1s@163.com',
     to: options.email,
-    subject: '衣设账号注册认证',
+    subject: '爱吃糖账号注册认证',
     text: `你的验证码为${options.validateCode}，有效期为十分钟`
   };
   

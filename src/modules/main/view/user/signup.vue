@@ -1,7 +1,7 @@
 <template>
   <div class="signup-container">
     <div class="signup-form">
-    <div style="font-size: 16px;color: #666;text-align: left;padding: 20px 0px;">注册衣设账号</div>
+    <div style="font-size: 16px;color: #666;text-align: left;padding: 20px 0px;">注册爱吃糖账号</div>
     <el-form :model="signupForm"  ref="form"  :rules="rules">
       <el-form-item  prop="account">
         <el-input placeholder="请输入账号" v-model="signupForm.account" >

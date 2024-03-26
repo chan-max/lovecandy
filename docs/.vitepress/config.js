@@ -10,10 +10,10 @@
  */
 export default {
   // site-level options
-  title: "衣设网",
+  title: "爱吃糖网",
   description: "Just playing around.",
   themeConfig: {
-    siteTitle: "衣设网",
+    siteTitle: "爱吃糖网",
     sidebar: [
       {
         text: "AI遐想",

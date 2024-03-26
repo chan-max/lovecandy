@@ -12,7 +12,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'design.yishe',
-  appName: '衣设',
+  appName: '爱吃糖',
   webDir: 'app',
   server: {
     androidScheme: 'https'

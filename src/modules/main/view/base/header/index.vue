@@ -11,7 +11,7 @@
 <template>
     <div ref="headerBar" class="header-bar flex justify-center z-10">
         <div class="header-bar-content flex justify-between items-center">
-            <div class="header-bar-logo" @click="$router.push({ name: 'Home' })">1s衣设</div>
+            <div class="header-bar-logo" @click="$router.push({ name: 'Home' })">1s爱吃糖</div>
             <!-- <div style="flex: 1"></div> -->
             <router-link v-slot="{ navigate, isActive, isExactActive }" :to="{ name: 'Market' }" custom>
                 <div class="header-bar-menu-item" :class="{ 'header-bar-menu-item-active': isActive }" @click="navigate">
@@ -138,7 +138,7 @@ const loginStatusStore = useLoginStatusStore();
 
 .header-bar-menu-item-active {
     opacity: 1;
-    border-bottom: 2px solid #f53b4a;
+    border-bottom: 2px solid #ff1a3c;
 }
 
 .tools {

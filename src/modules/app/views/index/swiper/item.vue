@@ -18,31 +18,10 @@
 </template>
 <script setup>
 import { defineProps, ref, onMounted, watch, onUnmounted } from "vue";
-import { activeIndex, activeIndexChange, gltfViewerRef } from "./index.ts";
-import gltfViewer from "@/components/model/gltfViewer/index.vue";
-import heart from "@/icon/mobile/heart.svg?component";
-import iconComment from "@/icon/mobile/comment.svg?component";
-import share from "@/icon/mobile/share.svg?component";
-import shoppingCart from "@/icon/mobile/shoppingCart.svg?component";
-import { likeModel, likeAvailableModel } from "@/api";
-import { timeago } from "@/common/time";
-import dragToMove from "@/components/tips/dragToMove/index.vue";
-import { showMovableTip } from "@/store/stores/app.ts";
-import comment from './modelComment/index.vue'
-import { impact } from '../../../helper/device.ts';
-import { isDark } from "@/store/stores/app.ts";
-import crImage from '@/modules/app/components/image.vue'
-import crAvatar from '@/modules/app/components/avatar.vue'
-import shareModal from './share/index.vue'
-import { ActionSheet, ActionSheetButtonStyle } from '@capacitor/action-sheet';
-import { RelationshipType } from "@/types/user.ts";
 
 const props = defineProps(["data","index"]);
 
 const loading = ref(true);
-
-
-import { follow, unfollow } from '@/api'
 
 </script>
 <style>
@@ -113,7 +92,7 @@ ion-modal {
 
 ion-progress-bar {
   --background: rgba(0, 0, 0, 0);
-  --progress-background: rgba(105, 0, 255, 0.3);
+  --progress-background: #ff1a3c;
 }
 
 .menu-right {
@@ -185,7 +164,7 @@ ion-progress-bar {
   /* 为负值时可显示边框 */
   border-radius: inherit;
   /*important*/
-  background: linear-gradient(to right, #f53b4a, purple);
+  background: linear-gradient(to right, #ff1a3c, purple);
 }
 
 .follow-button {

@@ -1,7 +1,7 @@
 <template>
   <div class="login-form">
     <div style="padding: 20px 0px; display: flex; justify-content: space-between">
-      <div style="font-size: 16px; color: #666">登录衣设账号</div>
+      <div style="font-size: 16px; color: #666">登录爱吃糖账号</div>
       <icon-qrcode
         @click="loginType = LoginType.QRCODE"
         style="height: 20px; width: 20px"

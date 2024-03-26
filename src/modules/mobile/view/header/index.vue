@@ -4,7 +4,7 @@
       <template #left>
         <icon-menu @click="showMenu = true" class="mobile-header-icon"></icon-menu>
       </template>
-      <template #title> 衣设 </template>
+      <template #title> 爱吃糖 </template>
       <template #right>
         <icon-scan
           class="mobile-header-icon"

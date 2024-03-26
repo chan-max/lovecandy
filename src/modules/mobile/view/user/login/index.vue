@@ -10,7 +10,7 @@
           hide-required-asterisk
         >
           <el-form-item>
-            <div style="font-size: 24px">登录衣设网</div>
+            <div style="font-size: 24px">登录爱吃糖网</div>
           </el-form-item>
           <el-form-item prop="account">
             <el-input

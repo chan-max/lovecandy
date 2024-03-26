@@ -7,8 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+package-lock.json
+
+*.map
+
 node_modules
 dist
+www
+/app
 dist-ssr
 *.local
 
@@ -22,3 +28,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+docs/.vitepress/cache/
+
+components.d.ts

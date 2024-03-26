@@ -23,7 +23,7 @@
         <ion-toolbar>
           <ion-buttons slot="start">
             <ion-menu-toggle>
-               <span style="padding:0 10px;font-weight:bold;">衣设 1s</span>
+               <span style="padding:0 10px;font-weight:bold;">爱吃糖</span>
             </ion-menu-toggle>
           </ion-buttons>
           <ion-buttons slot="end">
