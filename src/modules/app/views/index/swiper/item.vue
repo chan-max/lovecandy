@@ -92,7 +92,7 @@ ion-modal {
 
 ion-progress-bar {
   --background: rgba(0, 0, 0, 0);
-  --progress-background: #ff1a3c;
+  --progress-background: #ff3351;
 }
 
 .menu-right {
@@ -164,7 +164,7 @@ ion-progress-bar {
   /* 为负值时可显示边框 */
   border-radius: inherit;
   /*important*/
-  background: linear-gradient(to right, #ff1a3c, purple);
+  background: linear-gradient(to right, #ff3351, purple);
 }
 
 .follow-button {
